@@ -1,0 +1,110 @@
+https://docs.google.com/document/d/17cz9Q-xSgpJmZquxpWMAhXItxSV2qlnG_c07SHZQwdU/edit?usp=sharing
+
+Jared Baumann
+April 26, 2021
+
+OS Upgrade and Remote Access
+Below you will find some reading materials and some additional resources that support today’s topic and the upcoming lecture.
+Review the Submission Instructions for guidance on completing and submitting this assignment.
+Reading
+Should You Learn Powershell?
+There’s a lot to learn
+Command line shell interface
+Enables system administrators and power users to manage computer from command line
+Also a scripting language built on .NET
+Used for automating administrative tasks and configuration management
+PowerShell vs other languages 
+Javascript - used to add scripting to web pages, usually for web and mobile apps
+Java - used to create applications (Android, server, web) and software tools
+Python - general purpose language - for desktop GUI applications, websites, web applications, as well as wide array of automation tasks
+C# - general purpose language - designed for application development - used for Windows desktop applications and games, also web apps and mobile development
+Ruby - general purpose language - typically combined with Rails (dev tool with focus of RESTful app design - one of most popular web dev frameworks today) - by itself Ruby is very flexible, able to rapidly build applications
+Who uses PowerShell 
+Above languages associated with: Developer, Full Stack Developer, Front End Developer, Web Developer, Software Developer, Application Developer
+PowerShell jobs: Systems Administrator, Network Administrator, Systems Engineer, Site Reliability Engineer, Systems Development Engineer, Cloud Architect, Systems Architect
+PowerShell vs Bash - typically goes like this:
+Linux → Bash → Python
+Windows → PowerShell → C#
+
+
+Bash
+PowerShell
+
+
+Unix shell and command language used for task automation and management.
+Microsoft command-line shell and associated scripting language used for task automation and configuration management.
+Works with strings
+Works with Objects
+Bash, the "veteran IT soldier" passes output and input as plain text. This makes it easy to move information to the next program.
+PowerShell is not just a shell; it is a complete scripting environment. PowerShell scripts share complex data, passing entire data objects structures between commands.
+
+Bash is now available on Windows and PowerShell on Linux - so times are changing
+Bash - uses strings, so it’s easy to pass around - Bash + Python resembles PowerShell
+PowerShell - uses cmdlets - can move complex data with little effort - can’t reach capabilities of Python
+PowerShell environments: Windows, Linux, Hyper-V, VMWare, AWS, Azure - all supported
+Why learn PowerShell?
+Automation – you’ll be faster
+Accuracy – reduce mistakes
+Versatility – learning once enhances you everywhere
+Community – PowerShell has one of the most connected and welcoming communities in tech. Plugging into it will only help you become a better admin/engineer
+Relevant – PowerShell continues to grow and be adopted. If you’re not learning it, you won’t remain competitive in the job market
+Beginning to learn PowerShell
+Easy to learn, takes practice to master
+Who needs malware? IBM says most hackers just Powershell through boxes now, leaving little in the way of footprints
+Direct-to-memory attacks - 57% of hacks
+Compromised network more likely to be ransacked by automated scripts than a piece of malware.
+43% of the attacks it analyzed utilized any sort of locally installed files -hackers utilized PowerShell scripts in memory without significantly touching file systems
+Reminder: admins trying to identify cyber-intrustions cannot rely on detecting malicious executables and similar data on storage
+Like local malware infections - attacker needs to get the ability to run malicious commands. 
+Next step differs - hacker does not direct the infected Windows machine to download, save, and execute a trojan payload.
+Attack runs entirely in memory using PowerShell -  can be used to do anything from harvest and steal passwords to mine cryptocurrency. 
+Possible to wrap protections around PowerShell to stop it by requiring scripts to be digitally signed.
+"PowerShell is useful in data collection and analysis, but it is also favored by malicious actors who use it to forego the file system and inject malicious code directly into memory, thus enhancing obfuscation, and often evading security controls designed to detect malware deployments," the IBM report reads.
+Windows 10 security question: How do miscreants use these for post-hack persistence?
+"Threat actors of all skill levels have expanded their capabilities using PowerShell over the last few years. IBM X-Force IRIS has seen cases wherein complete malicious toolkits were contained within PowerShell scripts."
+Misconfiguration incidents – instances where databases and storage buckets were left exposed to the public-facing internet – were also up 20 per cent from last year and accounted for 43 per cent of all of the exposed records X-Force tracked last year.
+In addition to the exposed files and records themselves, misconfigurations could also indirectly lead to other attacks when things like passwords and email addresses are involved and used to login to other accounts on other services to carry out further mischief.
+Finally, the report found, the tried and true social engineering attack remains as effective as it has ever been.
+Last year, IBM found that 29 per cent of the attacks it analyzed were phishing attacks, and 45 per cent of those were targeted attacks on specific employees, something X-Force terms the business email compromise.
+"When it comes to the most lucrative types of social engineering scams, BEC has been a growing tide for several years spanning all industries and geographies," notes X-Force.
+Despite the various methods for attacks, a bogus "CEO" email demanding a wire transfer is still an effective method 
+Videos
+What is a Powershell attack?
+Living off the Land
+Easy to do - hard to catch
+PowerShell - source often attachment from e-mail - macros to “view”
+Not closely monitored - hackers don’t attempt to hide (more likely to get caught if “hidden”)
+Additional Resources
+These extra resources are not part of the reading assignment, but do use them as reference materials to help you learn the subject matter. Bookmark them all!
+Reading
+Microsoft Documentation: What is PowerShell?
+Microsoft Documentation: Getting Started with PowerShell
+Quick Reference - Powershell Variables and Operators
+Assignment Instructions
+Go through the reading material for this class and watch/bookmark the additional resources provided. Prepare an entry for your Readings Notes Repository that summarizes the principal reading topic as though you were presenting the material to someone new to the industry.
+Article/Entry Ideas
+Blog Article (2-3 paragraphs with code sample)
+Dictionary / Flash Cards
+Notes in outline form
+Use an analogy
+Explain a detail in depth
+Use WHY, WHAT, HOW structure
+Tutorial / walk through an example as though you were teaching a 102 student
+Write a quiz
+Create a vocabulary/definition list
+Write a cheat sheet
+Create a diagram / visualization / cartoon of a topic
+Anthropomorphize the concepts, and write a conversation between them
+Build a map of the information
+Construct a fill-in-the-blank worksheet for the topic
+To submit this assignment
+Create a new markdown file in your reading notes repository, and add your notes
+If you utilize any content directly from the reading sources, be sure to identify what you are quoting, and cite the source
+Add a link to this new file under the table of contents for this course
+Then ACP your main branch to create a rendered web page on GitHub pages
+Copy the rendered content and paste it into the discussion
+Grading Rubric
+0 points: Minimal effort
+1 point: Insufficient quality
+2 points: Sufficient quality
+
